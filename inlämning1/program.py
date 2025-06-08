@@ -1,4 +1,4 @@
-#TODO Uppgift 1,2,3,4 done
+#TODO Uppgift 1,2,3,4,5,6,7 done on 78 minutes
 
 class myfunc:#kod från min leetcode eller github eller någonstans där jag är uppehovsrättsinnehavare för koden
     def inplacefunsort(self,nums):#från leetcode "sort an array" (fun version) gissa vilken ovanlig sorteringsmetod jag använder tips worst case: nlog(n) och in-place
@@ -132,7 +132,7 @@ def uppgift7():
         import numpy as np
         T = np.loadtxt('T10365.txt')
         #print(T.shape)
-        print(f"Maximal temperatur under 10 år kollon {np.argmax(T)%T.shape[1]} rad {np.argmax(T)//T.shape[1]}")#behövs ej förklaras mer än T.shape för att få kollon and row
+        print(f"Maximal temperatur under 10 år kollon {np.argmax(T)%T.shape[1]} och rad {np.argmax(T)//T.shape[1]}")#behövs ej förklaras mer än T.shape för att få kollon and row
         print(f"Mean feb {np.mean(T[:,32:60]):.2f}")##behövs ej förklaras index 60 för +1
         print(f"Mean 1985 {np.mean(T[4,:]):.2f}")##behövs ej förklaras indexet 4 motsvarar 1985
     uppgift7b()
@@ -149,8 +149,8 @@ def inlämning1():
 inlämning1()
 """
 (c) Använd ett skärminspelningsprogram och spela in en kort video, där du förklarar, rad
-för rad, vad de olika kommandona gör i programmet i uppgift 
-(b) ovan. Visa också hur du
+för rad, vad de olika kommandona gör i programmet i uppgift (b) ovan. 
+Visa också hur du
 kör programmet. Videon laddas upp på YouTube och du klipper bara in länken i överst i
 din py-fil. Tips: om du skriver kommentarer till varje rad så är det lättare att förklara när
 du spelar in videon."""
