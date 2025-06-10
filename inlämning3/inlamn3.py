@@ -1,4 +1,4 @@
-#youtubelänk https://youtu.be/JPc2TniKBi4
+#youtubelänk censur
 
 #biblotek
 import numpy as np
@@ -140,4 +140,4 @@ def uppgift():
     uppgift6() #kör uppgift6
 uppgift() #kör alla markerade uppgifter
 
-#länk https://youtu.be/JPc2TniKBi4
+#länk censur
