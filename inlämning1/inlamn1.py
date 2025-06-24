@@ -133,7 +133,7 @@ def uppgift7():
         T = np.loadtxt('T10365.txt')
         #print(T.shape)
         print(f"Maximal temperatur under 10 år kollon {np.argmax(T)%T.shape[1]} och rad {np.argmax(T)//T.shape[1]}")#behövs ej förklaras mer än T.shape för att få kollon and row
-        print(f"Mean feb {np.mean(T[:,32:59]):.2f}")##behövs ej förklaras index 60 för +1
+        print(f"Mean feb {np.mean(T[:,31:59]):.2f}")##behövs ej förklaras index 60 för +1
         print(f"Mean 1985 {np.mean(T[4,:]):.2f}")##behövs ej förklaras indexet 4 motsvarar 1985
     uppgift7b()
 def inlämning1():
